@@ -1,0 +1,14 @@
+$$$$ test 2 for assignemnt 1
+ 
+* test a simple chain of resistors
+
+V1 ns 0 5V
+V2 ne 0 1V
+
+R1 ns n1 1K
+R2 n1 n2 2K
+R3 n2 ne 3K
+
+.op
+
+.END

@@ -1,0 +1,18 @@
+$$$$ test 1 for assignemnt 1
+ 
+* test a 2D resistor 2X2 "mesh" with additional resistors at both ends
+
+Vs1 11v 0 1V
+Vs2 11 0 2V
+Ve 22  0 0V
+
+Rs 11v 11 2K
+
+R1  11 12 1K
+R2  11 21 1K
+R3  12 22 1K
+R4  21 22 1K
+
+.op
+
+.END

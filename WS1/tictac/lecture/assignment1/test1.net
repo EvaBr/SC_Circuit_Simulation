@@ -1,0 +1,13 @@
+$$$$ test 1 for assignemnt 1
+ 
+* simple 3 resistors with one voltage source
+
+V1 n1 0 1V
+
+R1 n1 0 1K
+R2 n2 0 1K
+R3 n1 n2 1K
+
+.op
+
+.END

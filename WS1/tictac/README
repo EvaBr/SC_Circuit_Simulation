@@ -1,0 +1,8 @@
+One example to call:
+in the actual directory if there is "test.net" netlist
+
+$./bin/tictac_simulator.linux test.net
+
+Or with debug output information 
+$./bin/tictac_simulator.linux test.net -VAnalysisFunction=6 -VSolver=6 -VLUSolver=6
+
